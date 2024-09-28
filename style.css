@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+#game1 {
+  width: 100px;
+  transition: filter 0.3s ease;
+}
+
+.demuc {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  display: inline;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.muc_1 {
+  display: inline-block;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Thêm padding để tạo khoảng cách bên trong */
+  transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào .muc_1 */
+.muc_1:hover {
+  background-color: gray;
+}
+
+/* Hiệu ứng khi di chuột vào liên kết */
+.demuc:hover {
+  color: white;
+}
+
+/* Hiệu ứng hình ảnh khi di chuột */
+.demuc:hover #game1 {
+  filter: grayscale(100%);
+}
+.title {
+  margin: 20px;
+}
+#head {
+  margin: 50px;
+}
+#head {
+  margin-top: 0%;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  background-color: #48d1cc;
+}
+/* .dark-mode {
+  background-color: black;
+  color: aliceblue;
+}
+#but {
+  height: 50px;
+  width: 60px;
+  background-color: rgb(215, 213, 232);
+} */
+legend {
+  text-align: center;
+}
+#diem_danh {
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+}
